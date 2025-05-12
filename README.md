@@ -11,7 +11,7 @@ The **Remind-me-later** backend is a simple REST API that allows storing reminde
 - Create reminders with:
   - `date` (e.g., "2025-05-13")
   - `time` (e.g., "14:30")
-  - `message` (e.g., "Doctor appointment")
+  - `message` (e.g., "Any Message")
   - `reminderType` ("sms" or "email")
 - Stores all reminders in a MongoDB collection.
 - Built with scalability in mind for adding more reminder types in the future.
