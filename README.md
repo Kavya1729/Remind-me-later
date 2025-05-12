@@ -43,3 +43,23 @@ The **Remind-me-later** backend is a simple REST API that allows storing reminde
   "reminderType": "email"
 }
 
+```
+---
+## Project-Structure
+```
+
+remind-me-later-backend/
+├── config/
+│   └── connectDB.js          # MongoDB connection logic
+├── models/
+│   └── Reminder.js           # Mongoose schema
+├── routes/
+│   └── reminderRoutes.js     # API route
+├── server.js                 # Main server file
+├── .env                      # Environment variables (excluded from Git)
+├── .gitignore                # Git ignore file
+├── README.md                 # Project documentation
+├── package.json              # Project metadata and scripts
+```
+
+
